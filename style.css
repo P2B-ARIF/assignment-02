@@ -1,0 +1,388 @@
+@import url(utilites.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+/*------------------- 
+            1st website start
+                        ----------------- */
+
+
+/* home page section start*/
+
+.home-page{
+    display: flex;
+    background-color: black;
+    padding: 0 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    animation: backgound-color 10s  ease .1s infinite alternate;
+}
+@keyframes backgound-color {
+    25%{
+        background-color: #0f6269;
+    }
+    50%{
+        background-color: #7e4f14;
+    }
+    75%{
+        background-color: #11ad5f;
+    }
+    100%{
+        background-color: #4511ad;
+    }
+}
+.home-page .watch-live{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+.home-page .watch-live h1{
+    color: white;
+    font-size: 40px;
+}
+.home-page .watch-live p{
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.home-page .watch-live button{
+    margin-bottom: 20px;
+    width: 170px;
+}
+.home-page .watch-live i{
+    animation: arraw .5s ease .1s infinite alternate;
+}
+
+@keyframes arraw {
+    from{
+        padding-left: 5px;
+    }
+    to{
+        padding-left: 20px;
+    }
+}
+/* home page section end*/
+
+/* blog section start */
+
+section.blog .match-live{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+section.blog .match-live .menu{
+    margin-right: 20px;
+    background-color: #000000;
+    padding: 0 20px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+section.blog .match-live .menu .select-btn{
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    display:grid;
+    width: 180px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+section.blog .match-live .menu .select-btn:hover{
+    border: 2px solid #ad2911;
+}
+section.blog .match-live .contant{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+section.blog .match-live .contant .box{
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: .3s ease;
+}
+section.blog .match-live .contant .box:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+section.blog .match-live .contant .box .img img{
+    width: 100%;
+    object-fit: cover;
+}
+section.blog .match-live .contant .box .discription{
+    padding: 0 20px;
+}
+section.blog .match-live .contant .box p{
+    font-weight: 700;
+    padding: 10px 0;
+}
+section.blog .match-live .contant .box span{
+    padding-right: 20px;
+}
+section.blog .match-live .contant .box i{
+    padding-right: 5px;
+}
+/* blog section end */
+
+
+/* footer section start  */
+
+footer{
+    background-color: black;
+}
+footer .footer-section{
+    text-align: center;
+    padding: 50px 0;
+}
+footer .footer-section h1{
+    color: #c0c0c0;
+    padding-bottom: 40px;
+}
+footer .footer-section .service{
+    margin-top: 50px;
+}
+
+footer .footer-section .service a{
+    text-decoration: none;
+    color: #c0c0c0;
+    padding: 0 10px;
+    transition: .3s ease;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+   
+}
+footer .footer-section .service a:hover{
+    color: #ad2911;
+}
+/* footer section end  */
+
+/*------------------- 
+            1st website end
+                        ----------------- */
+
+/*------------------- 
+            2nd website start
+                        ----------------- */
+                    
+section.blog .match-live{
+    justify-content:space-between;
+}
+section.blog .match-live .contant .box .img1{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+section.blog .match-live .contant .box .img1 img{
+    width: 36%;
+}
+section.blog .match-live .contant .box .img1 label{
+    margin: 0 5%;
+    font-weight: 700;
+}
+section.blog .match-live .contant .box .discription{
+    text-align: center;
+    margin-top: 20px;
+}
+section.blog .match-live .contant .box .discription span{
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+}
+section.blog .match-live .contant{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-column-gap: 20px; */
+    grid-row-gap: 20px;
+}
+                    
+.View-all{
+    display: none;
+}
+/*------------------- 
+            2nd website end
+                        ----------------- */
+
+
+/*------------------- 
+            3rd website start
+                        ----------------- */
+
+section.blog .match-live1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+section.blog .match-live1 .flex-menu1{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+section.blog .match-live1 .menu1 {
+    background-color: transparent;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+section.blog .match-live1 .menu1 .select-btn{
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+/*------------------- 
+            3rd website end
+                        ----------------- */
+
+
+
+@media screen and (max-width:900px){
+    header {
+        margin: 20px 20px 0px 20px;
+        padding: 0px 30px;
+    }
+    .home-page{
+            padding: 0 30px;
+            margin-top: 30px;
+            border-radius: 20px; 
+            justify-content: center;
+
+    }
+    .home-page .watch-live {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .home-page .watch-live p {
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+    section.blog .match-live {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: inline-block;
+    }
+    section.blog .match-live .flex-menu{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    section.blog .match-live .menu {
+        background-color: transparent;
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    section.blog .match-live .menu .select-btn{
+        margin: 0 10px;
+        margin-bottom: 20px;
+    }
+    section.blog .match-live .contant {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .View-all{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    footer .footer-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    footer .footer-section .service a{
+        padding-top: 10px;
+        
+    }
+    .hide{
+        display: none;
+    }
+
+    .View-all{
+        display:block;
+    }
+
+    /* ------------2nd website-------------  */
+
+
+    section.blog{
+        display: flex;
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    header{
+        text-align: center;
+        margin: 10px 10px 0px 10px;
+        padding: 0px 30px;
+    }
+    
+    .home-page {
+        padding: 0 10px;
+        margin-top: 20px;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    .home-page .watch-live{
+        padding-top:30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .home-page .watch-live h1{
+        font-size: 40px;
+    }
+    section.blog .match-live .flex-menu{
+        text-align: center;
+    }
+    section.blog .match-live .menu {
+        width: 100%;
+        background-color: #f5f2f2;
+        display: inline-block;
+        margin-left: 0; 
+        margin-right: 0;
+        text-align: center;
+    }
+    section.blog .match-live .menu .select-btn{
+        width: 80%;
+        display: inline-block;
+    }
+    section.blog .match-live .contant {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer .footer-section {
+        text-align: center;
+    }
+    footer .footer-section .service{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footer-section .service a{
+        margin-bottom: 20px;
+    }
+
+    .View-all{
+        display:none;
+    }
+}

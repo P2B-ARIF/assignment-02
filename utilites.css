@@ -1,0 +1,28 @@
+.container{
+    max-width: 1152px;
+    margin:0 auto;
+}
+
+.livebtn{
+    padding: 10px 25px;
+    font-weight: 700;
+    background-color: #ad2911;
+    color: #ffffff;
+    border: 2px solid #ad2911;
+}
+.active{
+    background-color: #ad2911;
+    color: white;
+}
+
+.transfer-btn{
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+}
