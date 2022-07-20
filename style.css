@@ -55,6 +55,7 @@
 .home-page .watch-live button{
     margin-bottom: 20px;
     width: 170px;
+    cursor: pointer;
 }
 .home-page .watch-live i{
     animation: arraw .5s ease .1s infinite alternate;
