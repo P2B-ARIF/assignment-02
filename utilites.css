@@ -26,3 +26,18 @@
 a{
     text-decoration: none;
 }
+
+.social{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: gray;
+}
+
+.social p{
+    padding: 0 10px;
+}
+.social p:hover{
+    color: #ad2911;
+}
