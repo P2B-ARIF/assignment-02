@@ -94,6 +94,9 @@ section.blog .match-live .menu .select-btn{
     margin-bottom: 20px;
     align-items: center;
 }
+section.blog .match-live .menu .select-btn a{
+    color: black;
+}
 section.blog .match-live .menu .select-btn:hover{
     border: 2px solid #ad2911;
 }
@@ -239,6 +242,9 @@ section.blog .match-live1 .menu1 {
 section.blog .match-live1 .menu1 .select-btn{
     margin: 0 10px;
     margin-bottom: 20px;
+}
+section.blog .match-live1 .menu1 .select-btn a{
+    color: black;
 }
 
 /*------------------- 
